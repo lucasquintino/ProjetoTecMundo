@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    background: #e6e6e6;
+				
+}
+
+#cabecalho{
+    background: #ffd000;
+    text-align: center;
+    padding: 20px;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#posts{
+    background: orange;
+    width: 660px;
+    float: left;
+}
+#lateral{
+    background: #f6f6f6;
+    width: 240px;
+    float: right;
+}
+.postagem{
+    background: #f6f6f6;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#rodape{
+    clear: both;
+    font-weight: bold;
+    text-align: center;
+    background: #CCC;
+}
+
+.posts-recentes{
+    margin: 10px;
+    
+    font-size: 0.8em;
+    
+
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    background: #CCC;
+    color: rgba(0, 0, 0, 0.534);
+    margin: 9px 9px;
+    padding: 5px 5px;
+}
+.data{
+    border-bottom: solid 1px #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.branco{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #f7b600;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Links não visitados*/
+a:link {
+    color: #f7b600;
+}
+
+/*Links Visitados*/
+a:visited{
+    color: #f7b600;
+}
+
+/*Links Hover, passa o cursor sobre o link*/
+a:hover{
+    text-decoration: underline;
+}
+
+
+.categorias{
+    margin: 10px;
+    
+    font-size: 1.2em;
+}
+
+
+/*Links não visitados*/
+#cabecalho a:link {
+    color: white;
+    padding: 8px 12px;
+}
+
+/*Links Visitados*/
+#cabecalho a:visited{
+    padding: 8px 12px;
+    color: white;
+}
+
+/*Links Hover, passa o cursor sobre o link*/
+#cabecalho a:hover{
+    color: #ffd000;
+    background: white;
+    text-decoration: none;
+}
